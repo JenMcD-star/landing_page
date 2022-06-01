@@ -1,18 +1,19 @@
+
 body {
-    font-size: 48px;
-    font-weight: bolder;
     color: #F9FAF8;
     background: #1F2937;
-
 }
 
 .header {
     display: flex;
     font-size: 24px;
+    font-weight: bold;
     justify-content: space-between;
     align-items: center;
-    gap: 16px;
-    margin: 48px;
+    margin-top: 8px;
+    margin-bottom: 88px;
+    margin-left: 46px;
+    margin-right:  46px;
 }
 
 
@@ -26,3 +27,44 @@ ul {
     padding: 0;
     gap: 16px;
 }
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: auto;
+}
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 48px;
+    margin-bottom: 0;
+
+}
+
+.subtext{
+    font-size: 18px;
+    font-weight: lighter;
+    color: #e5e7eb;
+    margin-right: 48px;
+    padding: 0;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+ img {
+     display: flex;
+     align-self: flex-end;
+     justify-content: flex-start;
+     max-height: 500px;
+     max-width: 1000px;
+     margin-right: 48px;
+ }
