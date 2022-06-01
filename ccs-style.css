@@ -6,24 +6,23 @@ body {
 
 }
 
-.header  {
+.header {
     display: flex;
     font-size: 24px;
     justify-content: space-between;
-    margin-right: 0;
-    margin-top: 0;
-    margin-left: 24px;
+    align-items: center;
+    gap: 16px;
+    margin: 48px;
 }
 
-.header-right {
-    display: flex;
-    align-items: center;
-}
 
 ul {
+    display: flex;
     list-style-type: none;
     font-size: 18px;
+    font-weight: lighter;
     color: #e5e7eb;
-   
-
+    margin: 0;
+    padding: 0;
+    gap: 16px;
 }
