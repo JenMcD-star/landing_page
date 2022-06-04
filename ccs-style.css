@@ -31,12 +31,11 @@ a:visited {
   }
 .container {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     margin: 48px;
     max-width: 40%;
     margin-left: 325px;
     margin-bottom: 0;
+    padding: 10px;
 }
 
 h1 {
@@ -76,6 +75,7 @@ button {
 .wrapper2{
     background-color: peachpuff;
     margin-top: -30px;
+    padding-bottom: 50px;
 }
 
 .info{
@@ -83,28 +83,50 @@ button {
     justify-content: space-evenly;
     padding: 0;
     text-align: center;
-    
-}
 
-.image-resize {
-    height: 350px;
-    width: 300px;
-    border-radius: 50%;
 }
-
 
 h2 { 
     display: flex;
     justify-content: center;
     margin-bottom: 32px;
     font-size: 36px;
-    font-weight: bolder;
-    color: #1F2937;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 
+.image-resize {
+    height: 350px;
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid #1F2937;
+}
 
+.p2{
+    color: #1F2937;
+}
+/*this is section 3*/
 
+.wrapper3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 60px;
+}
+ .p3 {
+     display: flex;
+     justify-content: center;
+     font-size: 36px;
+     font-style: italic;
+     font-weight: 100;
+ }
 
+ .name {
+     display: flex;
+     justify-content: flex-end;
+    font-size: 36px;
+    margin-right: 300px;
+    margin-top: -10px;
 
+ }
